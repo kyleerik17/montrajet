@@ -1,0 +1,107 @@
+.screen {
+  max-width: 380px;
+  margin: auto;
+  height: 100vh;
+  padding: 20px;
+  background: linear-gradient(180deg, #0b2239, #081a2b);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+/* HEADER */
+.top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.back {
+  color: #34d399;
+  cursor: pointer;
+}
+
+.badge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  background: rgba(255,255,255,0.1);
+}
+
+.badge.green {
+  background: rgba(52,211,153,0.2);
+  color: #34d399;
+}
+
+/* TEXT */
+h1 {
+  margin-top: 20px;
+  font-size: 26px;
+}
+
+.subtitle {
+  color: #a8c1d9;
+}
+
+/* CARD */
+.form-card {
+  margin-top: 20px;
+  background: rgba(255,255,255,0.05);
+  padding: 15px;
+  border-radius: 20px;
+}
+
+/* INPUT */
+input {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: transparent;
+  color: white;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.label {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #34d399;
+}
+
+/* FOOTER */
+.secure {
+  text-align: center;
+  font-size: 12px;
+  margin: 15px 0;
+  color: #8aa6c3;
+}
+
+/* BUTTON */
+.main-btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 14px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.main-btn.green {
+  background: linear-gradient(135deg, #10b981, #34d399);
+}
+
+/* LOGIN */
+.login {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.login span {
+  color: #34d399;
+  cursor: pointer;
+}

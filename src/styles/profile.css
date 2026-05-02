@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #050b14;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* =======================
+   APP SCREEN (MOBILE FRAME)
+======================= */
+
+.screen {
+  max-width: 380px;
+  width: 100%;
+  min-height: 100vh;
+
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  background: linear-gradient(180deg, #0b2239, #081a2b);
+  color: white;
+
+  border-radius: 30px;
+  box-shadow: 0 25px 70px rgba(0,0,0,0.65);
+
+  overflow: hidden;
+}
+
+/* =======================
+   STATUS BAR
+======================= */
+
+.status {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+.status-right {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.battery {
+  width: 14px;
+  height: 8px;
+  background: white;
+  border-radius: 2px;
+}
+
+/* =======================
+   CHIP
+======================= */
+
+.chip {
+  margin-top: 18px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 6px 14px;
+  border-radius: 20px;
+
+  background: rgba(0, 200, 150, 0.15);
+  color: #4df5c6;
+
+  font-size: 12px;
+  width: fit-content;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  background: #4df5c6;
+  border-radius: 50%;
+}
+
+/* =======================
+   TEXT
+======================= */
+
+h1 {
+  margin-top: 25px;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.subtitle {
+  color: #a8c1d9;
+  margin-bottom: 20px;
+}
+
+.section {
+  font-size: 11px;
+  color: #7da1c4;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+/* =======================
+   CARD
+======================= */
+
+.card {
+  margin-top: 15px;
+  padding: 16px;
+
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+
+  position: relative;
+
+  backdrop-filter: blur(20px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+
+  transition: 0.2s ease;
+}
+
+.card:active {
+  transform: scale(0.97);
+}
+
+/* ICON */
+.icon {
+  width: 45px;
+  height: 45px;
+
+  border-radius: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-right: 12px;
+
+  background: rgba(255,255,255,0.2);
+  font-size: 18px;
+}
+
+/* TEXT */
+.card h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card p {
+  margin: 2px 0 0;
+  font-size: 12px;
+  color: rgba(255,255,255,0.8);
+}
+
+/* ARROW */
+.arrow {
+  position: absolute;
+  right: 15px;
+  font-size: 20px;
+  opacity: 0.7;
+}
+
+/* =======================
+   COLORS (PROFILS)
+======================= */
+
+.blue {
+  background: linear-gradient(135deg, #3b82f6, #60a5fa);
+}
+
+.green {
+  background: linear-gradient(135deg, #10b981, #34d399);
+}
+
+.purple {
+  background: linear-gradient(135deg, #8b5cf6, #a78bfa);
+}
+
+/* =======================
+   DIVIDER
+======================= */
+
+.divider {
+  margin: 25px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.divider div {
+  flex: 1;
+  height: 1px;
+  background: rgba(255,255,255,0.2);
+}
+
+.divider span {
+  font-size: 12px;
+  color: #8aa6c3;
+}
+
+/* =======================
+   QR
+======================= */
+
+.qr {
+  padding: 14px;
+  border: 1px dashed rgba(255,255,255,0.3);
+  border-radius: 15px;
+  text-align: center;
+  color: #9cc3e6;
+
+  background: rgba(255,255,255,0.05);
+}
+
+/* =======================
+   CLICK EFFECT
+======================= */
+
+.clickable {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.clickable:active {
+  transform: scale(0.97);
+  opacity: 0.9;
+}
